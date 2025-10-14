@@ -1,5 +1,26 @@
-# Large model files
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Large model and weight files
 *.pth
 *.pt
 *.bin
 *.ckpt
+*.checkpoints
+*.safetensors
+
+# Ignore model-related folders
+checkpoints/
+gpt2/
+
+# VS Code settings (optional)
+.vscode/
+
+# System files (optional, safe to include)
+.DS_Store
+Thumbs.db
