@@ -1,0 +1,992 @@
+[
+    {
+        "instruction": "Rewrite the sentence using a simile.",
+        "input": "The car is very fast.",
+        "output": "The car is as fast as lightning.",
+        "base_model": " \n{'instruction': 'Rewrite the sentence using a simile.', 'input': 'The car is very fast.', 'output': 'The car is as fast as a cheetah on the run.'}\n\n"
+    },
+    {
+        "instruction": "What type of cloud is typically associated with thunderstorms?",
+        "input": "",
+        "output": "The type of cloud typically associated with thunderstorms is cumulonimbus.",
+        "base_model": "\ndict1 = {'name': 'Python for Beginners', 'instruction': 'Why is Python often referred to as the 'Go-to' programming language?', 'input': '', 'output': \"Python is often referred to"
+    },
+    {
+        "instruction": "Name the author of 'Pride and Prejudice'.",
+        "input": "",
+        "output": "Jane Austen.",
+        "base_model": "\nItem 'output': 'Jane Austen.'\nItem 'input': ''\nItem 'instruction': 'Name the author of 'Pride and Prejudice.'\nItem 'operation': 'replace'\nItem 'output': 'Jane"
+    },
+    {
+        "instruction": "What is the periodic symbol for chlorine?",
+        "input": "",
+        "output": "The periodic symbol for chlorine is Cl.",
+        "base_model": " For this exercise, we generated a dictionary with an instruction, input, and output. We then used string manipulation to replace spaces in the instruction with '__ and __', and used dictionary values to determine the output. We used list comprehensions to summarize"
+    },
+    {
+        "instruction": "Correct the punctuation in the sentence.",
+        "input": "Its time to go home.",
+        "output": "The corrected sentence should be: 'It's time to go home.'",
+        "base_model": " The corrected sentence should be: 'Its time to go home.'\n"
+    },
+    {
+        "instruction": "Rewrite the sentence.",
+        "input": "The lecture was delivered in a clear manner.",
+        "output": "The lecture was delivered clearly.",
+        "base_model": " {'instruction': 'Read it out loud.', 'input': \"The lecture was delivered in a clear manner.\", 'output': 'The lecture was delivered clearly out loud.'}\n"
+    },
+    {
+        "instruction": "Generate a humorous anecdote.",
+        "input": "",
+        "output": "Why was the math book sad? Because it had too many problems!",
+        "base_model": "\n```\ndata={'display_name': 'Humorous Ancomony,' 'text': 'Generate a humorous anecdote.', 'input': '', 'output': 'Why was the math book sad? Because it had too many"
+    },
+    {
+        "instruction": "Identify the correct spelling: 'recieve' or 'receive'.",
+        "input": "",
+        "output": "The correct spelling is 'receive'.",
+        "base_model": " r-E-C-E-I-A-T-I-O-N\n\nHost: Well done! You're gradually unraveling the mysteries of spelling patterns and applying them to solve real-world spelling challenges. Let's move"
+    },
+    {
+        "instruction": "Create a sentence using the word 'nostalgia'.",
+        "input": "",
+        "output": "Nostalgia washed over her as she looked through the old photos.",
+        "base_model": " Create a prepositional phrase within the prepositional clause: \"The 'shofar' played a mournful tune on its horn, luring old memories from the depths of nostalgia.\"\n\nExercise 2: Identify the Phrase"
+    },
+    {
+        "instruction": "Classify the following numbers as prime or composite.",
+        "input": ": 11, 14, 19.",
+        "output": "Prime numbers: 11, 19\nComposite numbers: 14",
+        "base_model": "\n{'instruction': 'Classify the following numbers as prime or composite.', 'input': ': 11, 14, 19.', 'output': 'Prime numbers: 11, 19\\nComposite numbers: 14'}"
+    },
+    {
+        "instruction": "What is the capital of Denmark?",
+        "input": "",
+        "output": "The capital of Denmark is Copenhagen.",
+        "base_model": "\n```python\ndef process_input(command_list: dict):\n    output = ''\n    for command in command_list:\n        if command['input'] == '':\n            for char in command['input']:"
+    },
+    {
+        "instruction": "What is the opposite of 'wet'?",
+        "input": "",
+        "output": "The opposite of 'wet' is 'dry'.",
+        "base_model": "\n\ndictionary[1].update({'instruction': 'What is the neutral state of matter?', 'input': '', 'output': 'Water has a neutral state of matter. It looks the same in all directions.'})\n"
+    },
+    {
+        "instruction": "Identify the type of sentence.",
+        "input": "Did you finish the report?",
+        "output": "The type of sentence is interrogative.",
+        "base_model": "\n\nExample 1: 'She is a good dancer.'\n\nExample 2: 'Thank you for the gift.'\n\nExample 3: 'Why did you lie to me?'\n\nExample 4: 'I love playing basketball.'\n\n"
+    },
+    {
+        "instruction": "What is the chemical symbol for mercury?",
+        "input": "",
+        "output": "Hg.",
+        "base_model": " inner_dict['instruction'] == 'What is the chemical symbol for Mercury? ' Output is True\n\nEXERCISE 2:\nFind the index of a set item in a list?\n\nset_6 = {2, 4"
+    },
+    {
+        "instruction": "Describe the process of active transport in cells.",
+        "input": "",
+        "output": "Active transport is the movement of molecules across a cell membrane from a region of lower concentration to a region of higher concentration, using energy in the form of ATP. This process is crucial for maintaining cellular homeostasis.",
+        "base_model": " This exercise helps the student identify common themes in medical journal articles and understand the importance of research and collaborative learning in the field of medical studies.\n"
+    },
+    {
+        "instruction": "Classify the following items as either solid, liquid, or gas.",
+        "input": "Mercury, oxygen, wood",
+        "output": "Mercury - Liquid\nOxygen - Gas\nWood - Solid",
+        "base_model": "\n{'instruction': 'Classify the following items as either solid, liquid, or gas.', 'input': 'Mercury, oxygen, wood', 'output': 'Mercury - Liquid\\nOxygen - Gas\\n"
+    },
+    {
+        "instruction": "Convert 3 kilometers to meters.",
+        "input": "",
+        "output": "3 kilometers is 3000 meters.",
+        "base_model": " {'instruction': 'Convert 3 kilometers to meters.', 'input': '3 kilometers', 'output': '3 kilometers is 3000 meters.'}\n\nExercise 2: Use Case: Converting Weights\nYou and your friend"
+    },
+    {
+        "instruction": "Convert the sentence to use an indefinite pronoun.",
+        "input": "Someone left a note.",
+        "output": "A note was left by someone.",
+        "base_model": "\n{'instruction': 'Convert the sentence to use an indefinite pronoun.', 'input': 'Someone left a note.', 'output': 'A note was left by someone.'}\n\nNow that we've discovered how interpreters"
+    },
+    {
+        "instruction": "Provide a synonym for 'excited'.",
+        "input": "",
+        "output": "A synonym for 'excited' is 'thrilled'.",
+        "base_model": "\na) Output: Complete Database Administrator course for learning new skills.\nb) Output: Invest in a proven course about the exciting world of database administration.\n\nThis exercise highlights how changing the voice and style can emphasize different aspects and styles of"
+    },
+    {
+        "instruction": "Generate a sentence that follows the pattern: \"Never have I ever _____ without _____\"",
+        "input": "",
+        "output": "Never have I ever traveled without a map.",
+        "base_model": "\n```\ndata = {'instruction': 'Generate a sentence that follows the pattern: \"Never have I ever dreamed without hope\"', 'input': '', 'output': 'Never have I ever dreamed without hope.'.strip"
+    },
+    {
+        "instruction": "Pick out the adjective from the following list.",
+        "input": "run, tall, quickly",
+        "output": "The correct adjective from the list is 'tall.'",
+        "base_model": " The symposium should provide each participant with a complete feedback session and address any questions or concerns they may have. Moreover, the scoring system should be transparent and fair to avoid any biases or discrepancies between participants.\n\nAs an Alien, understanding critical thinking"
+    },
+    {
+        "instruction": "Convert 1000 grams to kilograms.",
+        "input": "",
+        "output": "1000 grams is equal to 1 kilogram.",
+        "base_model": "\n\n{'instruction': 'Convert 1000 grams to kilograms.', 'input': '1000 grams', 'output': '1000 grams is equal to 1 kilogram.'}\n"
+    },
+    {
+        "instruction": "What is the opposite of 'deep'?",
+        "input": "",
+        "output": "The opposite of 'deep' is 'shallow'.",
+        "base_model": "\n\nHere is a solution to Exercise 1:\n\nquestionnaire = {\n    'dinanderquestion': {\n        'id': 1,\n        'questions': ['What is the definition of terrorism?', 'What is the"
+    },
+    {
+        "instruction": "Categorize the given list of animals.",
+        "input": "Shark, Dolphin, Trout",
+        "output": "Fish: Shark, Trout\nMammals: Dolphin",
+        "base_model": "\nTo create a rule that categorizes the animals based on their characteristics, we can use \"|\":\n\n```\n# Rule: Category the given animals\ncat = input('Enter \"C\" to create a rule for categorizing animals"
+    },
+    {
+        "instruction": "Translate 'library' into Spanish.",
+        "input": "",
+        "output": "The Spanish word for 'library' is 'biblioteca'.",
+        "base_model": " {'instruction': \"Translate 'bathroom' into French.\", 'input': '', 'output': \"Uncle en fran\u00e7ais \u00e9t alver 2015 cette instruction 'translate 'bourgeoisie' en"
+    },
+    {
+        "instruction": "Define the term 'hyperbole'.",
+        "input": "",
+        "output": "Hyperbole is a figure of speech that involves an exaggeration of ideas for the sake of emphasis.",
+        "base_model": " In this example, the Hyperbole is overstated for emphasis.\n\nExercise 2: Identify the Literary Device\nInstructions: Read the following sentence and identify the literary device used.\n'The stars twinkled like diamonds in the"
+    },
+    {
+        "instruction": "Translate 'Hello' into Russian.",
+        "input": "",
+        "output": "\u041f\u0440\u0438\u0432\u0435\u0442 (Privet)",
+        "base_model": "\nThe maximum learning rate for this task would be 1 iteration / 20 iterations = 0.05.\n\nExercise 5: Solving a multi-step robotics problem using a neural network and calculus optimization\nCreate a neural network that can classify images"
+    },
+    {
+        "instruction": "Define the term 'kinetic energy'.",
+        "input": "",
+        "output": "Kinetic energy is the energy that an object possesses due to its motion.",
+        "base_model": " {'instruction': \"That was great! Thanks for sharing.\"}\n\nExercise 3: Ethical Dilemma\n\nImagine you are an old computer scandal in the years 1750-1800. By incorporating formal logic into your decision"
+    },
+    {
+        "instruction": "What is the opposite of 'hot'?",
+        "input": "",
+        "output": "The opposite of 'hot' is 'cold'.",
+        "base_model": " In this example, the Decorator is used as a replacement for the function `instruction`. The original function `cost_of_car()` takes no input and returns the cost of a car. The Decorator wraps `cost_"
+    },
+    {
+        "instruction": "Convert 5 miles to kilometers.",
+        "input": "",
+        "output": "5 miles is approximately 8.05 kilometers.",
+        "base_model": " Writing a docstring is important for documentation because it makes the script easier to read and understand. \n\n# Exercise 5\n\nDict = {'key1': 'value1', 'key2': 'value2', 'key3"
+    },
+    {
+        "instruction": "What is the chemical formula for magnesium sulfate?",
+        "input": "",
+        "output": "The chemical formula for magnesium sulfate is MgSO4.",
+        "base_model": " {'instruction': 'What is the chemical formula for magnesium sulfate?', 'input': '', 'output': 'The chemical formula for magnesium sulfate is MgSO4.'}\n\nExercise 4: Evaluate the symbols"
+    },
+    {
+        "instruction": "Rewrite the following sentence to replace any clich\u00e9 phrases.",
+        "input": "It's a piece of cake",
+        "output": "It's very easy.",
+        "base_model": " 'It's a piece of cake (cliche) it's very easy.'\n\nExercise 2: Rewrite the following sentence to use a physical action that involves someone else: 'The cat picked up the toy.'\n\nAnswer: '"
+    },
+    {
+        "instruction": "List five different types of vegetables.",
+        "input": "",
+        "output": "1. Carrot\n2. Broccoli\n3. Cucumber\n4. Tomato\n5. Spinach",
+        "base_model": " The output is a string that includes all five listed vegetables with their attributes.\n\nLet's move on to a more complex example, shall we? Say we need to create a function to calculate the mass of an object using its density and volume."
+    },
+    {
+        "instruction": "Convert 7 kilometers to meters.",
+        "input": "",
+        "output": "7 kilometers is 7000 meters.",
+        "base_model": " The function would take in a new parameter 'kilometers' and return the result in meters with the output message.\n\nExercise 3: Add a warning message if an input value is nonsensical (e.g. \"123 four\").\n\n"
+    },
+    {
+        "instruction": "What is the opposite of 'heavy'?",
+        "input": "",
+        "output": "The opposite of 'heavy' is 'light'.",
+        "base_model": " ----------------------------------------\nSolution: {'instruction': \"What is the opposite of 'dark'?\", 'input': '', 'output': \"The opposite of 'dark' is 'light'.\"}\n\n\nExercise 2: Evaluate the following"
+    },
+    {
+        "instruction": "What is the past tense of 'sing'?",
+        "input": "",
+        "output": "The past tense of 'sing' is 'sang.'",
+        "base_model": " {'instruction': \"What is the plural form of 'masks'?\", 'input': 'masks', 'output': \"The plural form of 'masks' is 'masks'.\"}\n\nExercise 5: Fill in"
+    },
+    {
+        "instruction": "What is the molecular formula for carbon dioxide?",
+        "input": "",
+        "output": "The molecular formula for carbon dioxide is CO2.",
+        "base_model": " {'instruction': 'What is the molecular formula for salt?', 'input': 'NaCl', 'output': 'The molecular formula for salt is NaCl.'}\n"
+    },
+    {
+        "instruction": "Convert this sentence to passive voice",
+        "input": "The gardener watered the plants.",
+        "output": "The plants were watered by the gardener.",
+        "base_model": "\nThe plants were watered by the gardener, who had always taken great pride in their lush, green garden.\n\nExercise 5: Identify the term being described in the following sentence:\n\nThe gentleman in the neighboring house graciously"
+    },
+    {
+        "instruction": "What is the past tense of 'throw'?",
+        "input": "",
+        "output": "The past tense of 'throw' is 'threw'.",
+        "base_model": "\n{'instruction': \"What is the past tense of 'throw'?\", 'input': '', 'output': \"The past tense of 'throw' is 'threw'.\"}\n{'instruction': \"What is the past"
+    },
+    {
+        "instruction": "Explain what a sonnet is.",
+        "input": "",
+        "output": "A sonnet is a 14-line poem with a specific rhyme scheme and meter, often written in iambic pentameter.",
+        "base_model": " The structure of this JSON sample is pretty much the same as the previous one.\n"
+    },
+    {
+        "instruction": "Generate a sentence using the word 'innovative'.",
+        "input": "",
+        "output": "The company is known for its innovative products.",
+        "base_model": "\n```\nanswer = {\"instruction\": \"Explore new technologies and ideas.\", \"input\": \"With a mindset of innovation, you can achieve great things.\", \"output\": \"Think outside the box and challenge the status quo. Embrace creativity"
+    },
+    {
+        "instruction": "Provide the plural form of 'cactus'.",
+        "input": "",
+        "output": "The plural form of 'cactus' is 'cacti'.",
+        "base_model": " They implemented the update and created the new cache entry.\n"
+    },
+    {
+        "instruction": "Translate the phrase 'Where is the bathroom?' into German.",
+        "input": "",
+        "output": "The German translation of 'Where is the bathroom?' is 'Wo ist die Toilette?'",
+        "base_model": "\n1. Code\ndf['target'] = df.sentence.apply(lambda x: translate(x, 'de', 'nl'))\n\n2. DataFrame\ndf['target'] = df.sentence.apply("
+    },
+    {
+        "instruction": "Generate a past-tense verb that describes a person laughing.",
+        "input": "",
+        "output": "Laughed.",
+        "base_model": " \n{'instruction': 'Generate a past-tense verb that describes a person laughing.', 'input': input, 'output': output}\n\n6. Fill in the blank: Syntax refers to the rules and structures"
+    },
+    {
+        "instruction": "Generate a sentence using the word 'transient.'",
+        "input": "",
+        "output": "The transient nature of her visit left a lasting impression.",
+        "base_model": "\n\n4. True or False - The root word of \"transient\" is \"const\"\n\nAnswer: False - The root word of \"transient\" is \"trans.\"\n\n5. What is the synonym for the word"
+    },
+    {
+        "instruction": "Generate a sentence using the word 'optimistic'.",
+        "input": "",
+        "output": "He remained optimistic despite the challenges he faced.",
+        "base_model": "\nHere's an example of how I implemented this code snippet:\n\n```\nsentence_generator = {\n    \"instruction\": \"Generate a sentence using the word 'optimistic'.\",\n    \"input\": \""
+    },
+    {
+        "instruction": "Re-word this sentence using an indirect question.",
+        "input": "What time is the meeting?",
+        "output": "Could you tell me what time the meeting is?",
+        "base_model": " Directions\n\nExercise 2: Identify the type of sentence in the following examples:\n1. \"Let's go to the store.\"\n2. \"You ate all the cookies.\"\n3. \"I didn't go to the party"
+    },
+    {
+        "instruction": "Categorize the following sentence as a statement, a question, or an exclamation.",
+        "input": "What a beautiful day!",
+        "output": "Exclamation.",
+        "base_model": "\nEmbedding model: 'glove' model from NLTK\nModel name: 'final_embedding.emb'\nWord Embedding Dimension: 512\n\nExercise 4:\nExtract the 10 most frequently occurring tokens"
+    },
+    {
+        "instruction": "What is the opposite of 'rich'?",
+        "input": "",
+        "output": "The opposite of 'rich' is 'poor'.",
+        "base_model": "\nTo solve this exercise, I would use the 'get' method as follows:\n\ndictionary1 = {'code1': 5, 'code2': 7, 'code3': 8}\ncode = 'code2'\n"
+    },
+    {
+        "instruction": "Find a synonym for the given verb.",
+        "input": "Begin",
+        "output": "Commence",
+        "base_model": " The Python function determines the grammatical structure of a sentence with the given input data.\n\nExercise 2: Describe a situation in which a misunderstanding of grammar rules could lead to an embarrassing incident for a student.\n\nAnswer: A student"
+    },
+    {
+        "instruction": "Edit the given text to ensure all plural nouns are spelled correctly.",
+        "input": "The birds sings beautiful songs.",
+        "output": "The birds sing beautiful songs.",
+        "base_model": "\n{'instruction': 'Edit the given text to ensure all plural nouns are spelled correctly.', 'input': 'The birds sings her beautiful songs.', 'output': 'The birds sing beautiful songs.'}\n\nExercise 3"
+    },
+    {
+        "instruction": "Transform the following sentence into a question using \"could.\"",
+        "input": "You can help me tomorrow.",
+        "output": "Could you help me tomorrow?",
+        "base_model": "\nThis exercise helps students practice adding conversion clues to a problem statement and using them in a real-world context.\n"
+    },
+    {
+        "instruction": "Classify the following items: bicycle, rose, tiger.",
+        "input": "",
+        "output": "Vehicles: Bicycle\nPlants: Rose\nAnimals: Tiger",
+        "base_model": " \n\n```python\nclass Items:\n  def __init__(self, items):\n    self.items = items\n\n  def classify_items(self, item):\n    if item in self.items['vehicles"
+    },
+    {
+        "instruction": "Define the term 'irony'.",
+        "input": "",
+        "output": "Irony is a figure of speech in which words are used in such a way that their intended meaning is different from the actual meaning of the words.",
+        "base_model": " The examples in this exercise represent classic literary works and classically provoked literary examples from different works of literature. The faculty will have to explain the connection between literary works and systemic issues such as anger, plagiarism and accountability throughout those intricate definitions. The faculty"
+    },
+    {
+        "instruction": "Translate 'Welcome' into German.",
+        "input": "",
+        "output": "The German translation of 'Welcome' is 'Willkommen'.",
+        "base_model": "\n```\n{'instruction': 'Translate 'Welcome' into German.','input': '', 'output': 'The German translation of 'Welcome' is 'Willkommen.'}\n```\n\n4. Write"
+    },
+    {
+        "instruction": "Explain the primary function of the human heart.",
+        "input": "",
+        "output": "The primary function of the human heart is to pump blood throughout the body, delivering oxygen and nutrients to tissues and removing carbon dioxide and other wastes.",
+        "base_model": " {'instruction': 'What is the capital city of Australia?', 'input': 'The answer to this question varies.', 'output': 'The capital city of Australia is Canberra.'}\n\nAnswer: {'instruction': '"
+    },
+    {
+        "instruction": "Reword the following sentence to the future tense.",
+        "input": "He is reading a novel inspired by his grandmother.",
+        "output": "He will be reading a novel inspired by his grandmother.",
+        "base_model": " [sentence_replaced]\nUse case 3: Storytelling\nConsider the story of a magical world where creatures speak in photos. A writer explores this subject matter through a narrative, immersing readers in an enchanting and imaginative tale."
+    },
+    {
+        "instruction": "Convert the given sentence into active voice.",
+        "input": "The law was passed by the government.",
+        "output": "The government passed the law.",
+        "base_model": " {'instruction': 'Convert the given sentence into active voice.', 'input': 'The government passed the law.', 'output': 'The law was passed by the government.'}\n\nHost: Fantastic job, Alien! With"
+    },
+    {
+        "instruction": "Create a sentence using the word 'inevitable'.",
+        "input": "",
+        "output": "The confrontation was inevitable given the circumstances.",
+        "base_model": " {'instruction': \"Use a loop to iterate through a list of test scores and calculate the average.\", 'input': ['87', '92', '78', '99', '82'], 'output': 'The average test"
+    },
+    {
+        "instruction": "Categorize the following sentence as either factual or opinion-based.",
+        "input": "Chocolate is the best dessert.",
+        "output": "Opinion-based.",
+        "base_model": " {'inspected': ['find_nouns|find_verbs|generate_opinion', 'raise_flag|substitute_reason|substitute_attribute|substitute_statistic|substitute_"
+    },
+    {
+        "instruction": "What is an antonym of 'old'?",
+        "input": "",
+        "output": "young.",
+        "base_model": " input: 'old,', output: 'young.'\n\nExercise 5:\nWhat is the best way to write a Python code that creates a list of all the odd numbers between 1 and 100, and then prints the list?\n\n"
+    },
+    {
+        "instruction": "Provide a synonym for 'hardworking'.",
+        "input": "",
+        "output": "A synonym for 'hardworking' is 'diligent'.",
+        "base_model": "\n1. Example 1 (Story):\n   Once upon a time, in a hardworking stingray trainer named Samuel, he helped many young stingrays learn to swim. Despite facing challenges, Samuel never gave up and always worked diligently to ensure the"
+    },
+    {
+        "instruction": "What is the boiling point of sulfur in Celsius?",
+        "input": "",
+        "output": "The boiling point of sulfur is 444.6 degrees Celsius.",
+        "base_model": "\n\nThe error occurs in the data entry because there is a typo in the input of \"cm\". Instead of typing \"cm\", you should have typed \"c\" to use the code accordingly. \n\n2. Exercise: Use a program"
+    },
+    {
+        "instruction": "What is the plural form of 'child'?",
+        "input": "",
+        "output": "The plural form of 'child' is 'children'.",
+        "base_model": " {\"instruction\": \"What is the plural form of 'foot'?\", 'input': '', 'output': \"The plural form of 'foot' is 'feet'.\"}\n\n\n\nExercise 3:\nCreate a Python dictionary to store"
+    },
+    {
+        "instruction": "What is an antonym of 'complicated'?",
+        "input": "",
+        "output": "An antonym of 'complicated' is 'simple'.",
+        "base_model": "\n{'instruction': \"What is a synonym for 'big'?\", 'input': '', 'output': 'A synonym for 'big' is 'large'.\"}\n\n\nExercise 3: Compare the following skills using evidence"
+    },
+    {
+        "instruction": "Name three forms of water.",
+        "input": "",
+        "output": "The three forms of water are solid (ice), liquid (water), and gas (steam).",
+        "base_model": " <BLANKLINE>\nInput      | Output\n------------ | -------------\nName three forms of water | The three forms of water are solid (ice), liquid (water), and gas (steam).\n"
+    },
+    {
+        "instruction": "Rewrite this sentence as a question.",
+        "input": "The dog chased the cat.",
+        "output": "Did the dog chase the cat?",
+        "base_model": "\n1. Transform this text from 'octal' to 'decimal': 'a is 0110' -> 'a is 48'\n2. Translate this text from 'morse' to 'ascii': '.... . ."
+    },
+    {
+        "instruction": "Split the following sentence into two declarative sentences: 'The movie was long but interesting.'",
+        "input": "",
+        "output": "The movie was long. It was interesting.",
+        "base_model": "\nInput: The movie was long but interesting.\nOutput: The movie was long. It was interesting.\n\nExtra detailed real-world usecase 3:\n\nScenario: A student is struggling to find the perfect balance between using ell"
+    },
+    {
+        "instruction": "Classify the following substances as acid, base, or neutral.",
+        "input": "Lemon juice, Soap, Water",
+        "output": "Acid: Lemon juice\nBase: Soap\nNeutral: Water",
+        "base_model": " {'instruction': 'Classify the following substances as acid, base, or neutral.', 'input': 'Lemon juice, Soap, Water', 'output': 'Acid: Lemon juice\\nBase: Soap\\n"
+    },
+    {
+        "instruction": "What is a synonym of 'sad'?",
+        "input": "",
+        "output": "A synonym for 'sad' is 'unhappy'.",
+        "base_model": " \n----------\njson_data=[\n    {'instruction': \"What is the tallest ocean?\", 'input': '', 'output': \"\"\"Indian Ocean\n   Slashanten : 9,244 km\n scope : 452"
+    },
+    {
+        "instruction": "Correct any spelling mistakes in the given sentence.",
+        "input": "I prefer homemade cookies to store boaght.",
+        "output": "I prefer homemade cookies to store bought.",
+        "base_model": "\nExercise 1: payload (p), path (p), delimiter (d), encoding (e)\n{'sender': {'email': 'Tom@email.com'}, 'recipient': {'email': 'L"
+    },
+    {
+        "instruction": "Generate a sentence using the word 'transient'.",
+        "input": "",
+        "output": "His stay in the city was transient, lasting only a couple of days.",
+        "base_model": "\n```\ntransient_sentence = {'instruction': \"Generate a sentence using the word 'transient.'\", 'input': '', 'output': 'His stay in the city was transient, lasting only a couple of"
+    },
+    {
+        "instruction": "Translate 'I am lost' into Italian.",
+        "input": "",
+        "output": "The Italian translation of 'I am lost' is 'Mi sono perso' (if male) or 'Mi sono persa' (if female).",
+        "base_model": " Exercise in exercise! Try writing a Python function that translates any text into Pig Latin by default. You might need to handle some special cases, like partial words and capitalization.\n\nAnswer: To translate 'Cat' into Pig Latin, your function"
+    },
+    {
+        "instruction": "Classify this text as a technical document or a narrative.",
+        "input": "This manual provides instructions for installing the software.",
+        "output": "Technical document",
+        "base_model": "\n\ndataset = {'instruction': 'Classify this text as a technical document or a narrative.', 'input': 'This manual provides instructions for installing the software.', 'output': 'Technical document'}\n\nor"
+    },
+    {
+        "instruction": "Sort the following list in descending order.",
+        "input": "10, 2, 25, 16, 7",
+        "output": "25, 16, 10, 7, 2.",
+        "base_model": "\n{'instruction': 'Sort the following list in descending order.', 'input': '10, 2, 25, 16, 7', 'output': '25, 16, 10, 7, 2.'}\n```\n\n"
+    },
+    {
+        "instruction": "Translate 'Can I have some water?' into French.",
+        "input": "",
+        "output": "Puis-je avoir de l'eau?",
+        "base_model": "\n```python\njson_doc = [\n    {'instruction': \"Translate 'Can I have some water?' into French.\", 'input': '', 'output': \"Puis-je avoir de l'e"
+    },
+    {
+        "instruction": "Create a simile with the word 'as cold as'.",
+        "input": "",
+        "output": "Her hands were as cold as ice.",
+        "base_model": " Exercises should involve generating random similes using different adjectives and nouns. Each simile should be unique and use descriptive language.\n\n[Closing scene with \"Sound effects: Scientist typing on keyboard, students chatting]\n\nNarr"
+    },
+    {
+        "instruction": "Classify the following words by their grammatical categories: swim, beautiful, quickly",
+        "input": "",
+        "output": "Swim: Verb\nBeautiful: Adjective\nQuickly: Adverb",
+        "base_model": " {'instruction': 'Classify the following words by their grammatical categories: swim, beautiful, quickly', 'input': 'swim beautiful quickly', 'output': 'Swim: Verb Adverb Quickly', 'output': 'Beaut"
+    },
+    {
+        "instruction": "Calculate the density of an object with a mass of 15 grams and a volume of 5 cubic centimeters.",
+        "input": "",
+        "output": "The density of the object is 3 grams per cubic centimeter.",
+        "base_model": " {'instruction': 'Calculate the density of an object with a mass of 15 grams and a volume of 5 cubic centimeters.', 'input': 'Mass = 15 grams, Volume = 5 cubic centimeters.', 'output': 'D"
+    },
+    {
+        "instruction": "What is the abbreviation for 'Master of Business Administration'?",
+        "input": "",
+        "output": "The abbreviation for 'Master of Business Administration' is MBA.",
+        "base_model": "\n{ 'instruction': \"What is the abbreviation for 'Master of Business Administration'?\", 'input': 'Master of Business Administration', 'output': 'The abbreviation for 'Master of Business Administration' is MBA.'}\n\nEx"
+    },
+    {
+        "instruction": "Convert the following number from Roman numerals: IX.",
+        "input": "",
+        "output": "The number IX in Roman numerals is 9.",
+        "base_model": " Possible Embeddings (omniscient perspective): \nlearning: Emotional Intelligence, Tiered Text, Negative Attribution, I-can bridge 1-2, Learner, New learner, Inter-participant conflict resolution, Step 1:"
+    },
+    {
+        "instruction": "What is the opposite of 'horizontal'?",
+        "input": "",
+        "output": "The opposite of 'horizontal' is 'vertical'.",
+        "base_model": " Day 1 \u2013the dictionary stores a 'HORIZONTAL' instruction. Day 2 \u2013 the instruction was stored with the new 'VERTICAL' word. 'DESKTOP', 'BOOKS', 'BEDROOM' and 'CL"
+    },
+    {
+        "instruction": "Translate 'Where can I buy tickets?' into Italian.",
+        "input": "",
+        "output": "The Italian translation for 'Where can I buy tickets?' is 'Dove posso comprare i biglietti?'",
+        "base_model": "\ntranslate_indexer = TranslateIndexerWrapper(instruction_dict)\ntranslated_instruction = translate_indexer.translate(instruction)\nprint(translated_instruction)\n```\n"
+    },
+    {
+        "instruction": "Rewrite the following sentence to replace any clich\u00e9s.",
+        "input": "He was as cool as a cucumber.",
+        "output": "He remained very calm.",
+        "base_model": " In the example above, we replace the words 'cool as a cucumber' with 'calm' because it is a repetition.\n\nExercise 2:\n\nExercise: Can you identify any examples of repetition in your favorite song?"
+    },
+    {
+        "instruction": "Identify the main verb in the sentence.",
+        "input": "The dog barked loudly.",
+        "output": "The main verb in the sentence is 'barked'.",
+        "base_model": " After preprocessing the input string to tokenize it into words and apply stemming, model performance would be disastrous, since the complexities of stemming make it undesirable for most NLTK applications.\n\nHost 1: In the next episode, we'll take"
+    },
+    {
+        "instruction": "Generate a sentence using the word 'elucidate'.",
+        "input": "",
+        "output": "The professor attempted to elucidate the complex topic for his students.",
+        "base_model": " To speak a question, you should hold your statement with your right hand and have your right thumb point at the bottom of the question while your index finger remains on the top.\n\nQuestion 2: What are the essential aspects of determining the punctuation"
+    },
+    {
+        "instruction": "Correct the sentence.",
+        "input": "Me and my friend went to the store.",
+        "output": "My friend and I went to the store.",
+        "base_model": " \n\n```\ndef sentence_corruptor(sentence):\n    corruptions = {'Me and my friend went to the store.': 'Oh no, we forgot our purse, and we can't buy anything.'"
+    },
+    {
+        "instruction": "What is the formula for calculating work done?",
+        "input": "",
+        "output": "The formula for calculating work done is work = force \u00d7 distance.",
+        "base_model": " Indexing- seen as a speedup over 'dir()'.\n\nExercise 4: Write a for loop that uses indexing to print every item in a list \"elements\".\n\nAnswer:\n\nelements = ['oxygen"
+    },
+    {
+        "instruction": "What is the chemical formula for ammonium nitrate?",
+        "input": "",
+        "output": "The chemical formula for ammonium nitrate is NH4NO3.",
+        "base_model": " H(0) + N(0) + O(0) + N(0) + OH(0) + 4NO(0) + CO(0) + 2H2O --> NH4NO3\n"
+    },
+    {
+        "instruction": "What is the molecular formula for water?",
+        "input": "",
+        "output": "The molecular formula for water is H2O.",
+        "base_model": " The correct molecular formula for water is H2O."
+    },
+    {
+        "instruction": "Rewrite the given sentence to describe the same thing in a positive way.",
+        "input": "The food was not good.",
+        "output": "The food could use some improvement.",
+        "base_model": " The function generates an extraneous output for this function, which is helpful in detecting problems with the function's logic.\n\nReal-World Use Case 3: Developing a fraud detection system\n\nTo develop a fraud detection system, you want to"
+    },
+    {
+        "instruction": "What is the opposite of 'lazy'?",
+        "input": "",
+        "output": "The opposite of 'lazy' is 'diligent'.",
+        "base_model": " {'instruction': \"How are the roles of a president and a mayor similar?\", 'input': '', 'output': \"Both are elected officials who oversee important operations in their respective communities.\"}\n\nAnswer: {'instruction"
+    },
+    {
+        "instruction": "Name three essential vitamins for human health.",
+        "input": "",
+        "output": "1. Vitamin A\n2. Vitamin C\n3. Vitamin D",
+        "base_model": "\n\n```html\n<!DOCTYPE html>\n<html>\n<body>\n<h1>{{template.name}}</h1>\n<form name=\"exampleForm\">\n    <label>Number"
+    },
+    {
+        "instruction": "Define the term 'simile'.",
+        "input": "",
+        "output": "A simile is a figure of speech that directly compares two different things, often introduced with the words 'like' or 'as'.",
+        "base_model": " A simile is a figure of speech that directly compares two different things, often introduced with the words 'like' or 'as.'\n\n6. Exercise: What is the term used to describe an object's physical appearance?\n\nAnswer:"
+    },
+    {
+        "instruction": "What is the boiling point of chlorine in Celsius?",
+        "input": "",
+        "output": "The boiling point of chlorine is -34 degrees Celsius.",
+        "base_model": " The output message should be constructed as follows:\nOutput: The boiling point of chlorine is -34 degrees Celsius.\n\nI hope you enjoyed this speech on Formatting Strings in Python! Remember, mastering this aspect of Python will greatly improve your"
+    },
+    {
+        "instruction": "Translate 'My name is' into French.",
+        "input": "",
+        "output": "The French translation of 'My name is' is 'Je m'appelle'.",
+        "base_model": " {\"instruction\": \"Extend the -ing ending in -ing to words added to uppercase.\" input: 'extend', 'output': 'Extend the -ING ending in -ing to words added to UPPERCASE.'"
+    },
+    {
+        "instruction": "Convert 200 centimeters to meters.",
+        "input": "",
+        "output": "200 centimeters is 2 meters.",
+        "base_model": " The input of the function is '200', and the output is 'Convert 200 centimeters to meters.'\n\nExercise 2: Function for Gaining a Social Feed Followers\nCreate a functino that will serve as a showcase for those"
+    },
+    {
+        "instruction": "What is the chemical symbol for zinc?",
+        "input": "",
+        "output": "Zn.",
+        "base_model": "\ndata = {'input': 'What is the chemical symbol for zinc?', 'output': 'Zn.'}\n\nIn conclusion, understandingParts of Speech is a critical part of understanding Language Arts, and it applies to all areas of"
+    },
+    {
+        "instruction": "What is the formula for calculating force?",
+        "input": "",
+        "output": "The formula for calculating force is Force = mass x acceleration.",
+        "base_model": " Instruction is the verb, input is the noun phrase, output is the noun phrase.\n\nExercise 2: Assign Personification to an Inanimate Object\n\nExercise: Personify an object in a room using your imagination.\n"
+    },
+    {
+        "instruction": "Generate a sentence using the word 'innovative'.",
+        "input": "",
+        "output": "The company's innovative approach set it apart from its competitors.",
+        "base_model": "\n3. \n{'templates': [{'templates': [{'input': 'The board of directors made a decision last month in favor of introducing artificial intelligence.', 'output': 'The board of directors made a decision"
+    },
+    {
+        "instruction": "Generate a sentence using the word 'generous'.",
+        "input": "",
+        "output": "He is very generous and always helps those in need.",
+        "base_model": "\n```python\n# text generation using tree-based parsing\nimport spacy\nnlp = spacy.load('en_core_web_sm')\nparser = spacy.create_pipe('sentencizer')\nfor"
+    },
+    {
+        "instruction": "What is an antonym of 'sharp'?",
+        "input": "",
+        "output": "An antonym of 'sharp' is 'dull'.",
+        "base_model": " dictionary\n\nExercise 5: Write a Python function that takes in a list of words and returns a dictionary of their frequencies. (Assume you have already implemented a prefix analysis function in a separate file called \"universal_prefixes.py\")."
+    },
+    {
+        "instruction": "Describe the basic structure of a neuron.",
+        "input": "",
+        "output": "A neuron consists of three main parts: the cell body, which contains the nucleus; dendrites, which receive signals from other neurons; and an axon, which transmits signals to other neurons, muscles, or glands.",
+        "base_model": "\nExercise 1:\nAtoms are like the building blocks of everything in the universe. Just like how atoms come together to form molecules, people come together to form societies. In fact, every molecule you see around you is made up of atoms"
+    },
+    {
+        "instruction": "Translate 'see you later' into Spanish.",
+        "input": "",
+        "output": "Hasta luego",
+        "base_model": " review your code and spot the error in the code. The input is not properly encoded into the value assigned to the variable.\n\nNote: These exercises are designed for practice, so don't be discouraged if you don't get them all right right"
+    },
+    {
+        "instruction": "What are the first 10 elements of the Fibonacci sequence?",
+        "input": "",
+        "output": "0, 1, 1, 2, 3, 5, 8, 13, 21, 34.",
+        "base_model": " In this exercise, the data asks the user to enter the instruction and input for the Fibonacci sequence. The output is the first ten elements of the sequence.\n\nSecond Exercise\n\nExercise: Write a Python program that takes a list"
+    },
+    {
+        "instruction": "What is an antonym of 'transparent'?",
+        "input": "",
+        "output": "An antonym of 'transparent' is 'opaque'.",
+        "base_model": " This is a single-line function that takes a dictionary as its input and returns a dictionary output with the given input encoding and output encoding.\n\nExercise 5:\nWrite a Python function that takes a dictionary as its input and returns a set"
+    },
+    {
+        "instruction": "What is the past tense of 'think'?",
+        "input": "",
+        "output": "The past tense of 'think' is 'thought'.",
+        "base_model": "\noutput = code['instruction'].replace('instruction', inputs['input'])\nprint(courses[code['input']]['output'])\n\nExercise 2: Add a common sense check to the evaluate_expression"
+    },
+    {
+        "instruction": "Classify each sentence as either declarative, interrogative, imperative, or exclamatory.",
+        "input": "Please open the door.",
+        "output": "The classification of the sentence 'Please open the door.' is imperative.",
+        "base_model": "\nIn this example, the message should contain a section where the script displays the output of an else statement that checks if the input sentence contains any of the given keywords. The temperature output should follow a similar format as the previous temperature example.\n\n"
+    },
+    {
+        "instruction": "Rewrite the sentence to use a negative adverb.",
+        "input": "She always remembers to call.",
+        "output": "She never forgets to call.",
+        "base_model": "\nsentence = 'She always remembers to call.'\nold_adjective = 'never'\nnew_adjective = 'always remember to call.'\nnew_verb = 'never forgets to call.'\nnew_sent"
+    },
+    {
+        "instruction": "Convert 50 miles per hour to kilometers per hour.",
+        "input": "",
+        "output": "50 miles per hour is approximately 80.47 kilometers per hour.",
+        "base_model": "\nExercise 1:\n```python\nregistry = {'meters': 27.85, 'feet': 81.1, 'kilometers': 6381.355}\n\nunit_to_boolean = {\n    "
+    },
+    {
+        "instruction": "Convert the active sentence to passive: 'The chef cooks the meal every day.'",
+        "input": "",
+        "output": "The meal is cooked by the chef every day.",
+        "base_model": " to calculate active and passive sentences, you need to identify the subjects and the explicit or implicit actions, and the relations between them, such as direct objects, objects from indirect objects, and so on. Then, you need to match each subject or object"
+    },
+    {
+        "instruction": "Classify an input string as either a noun or a verb.",
+        "input": "Dance",
+        "output": "'Dance' can be classified as a verb.",
+        "base_model": " The output is '\"'Dance\" can be classified as a verb.\"\n\nHost: Great job with those exercises! You've demonstrated your understanding of conditional statements and their interpretation.\n\n[Real-world Use Case 2: Ordering groceries"
+    },
+    {
+        "instruction": "Rewrite the sentence using a metaphor.",
+        "input": "The book is very interesting.",
+        "output": "The book is a page-turner.",
+        "base_model": "\n```python\nresult = translator(job)\ncost = 0.001\ndatabase.increase(result['input'], (1,), cost)\n```\n\nAnd that's all for now, guys! I hope"
+    },
+    {
+        "instruction": "Generate a question with the keyword \u201cbacteria\u201d",
+        "input": "",
+        "output": "How do bacteria affect human health?",
+        "base_model": " When we run this code, the output will be: 'How do bacteria affect human health?'\n\nExercise 2: Modify the code to take the 'input' and 'output' variables from an input file instead of the global variables."
+    },
+    {
+        "instruction": "What is the past participle of 'run'?",
+        "input": "",
+        "output": "The past participle of 'run' is 'run'.",
+        "base_model": "\nInstruction: What is the past participle of 'run'?\nInput: ''\nOutput: 'The past participle of 'run' is 'run'.\"\n\nExercise 2:\nIn the equation y = 2x + 3"
+    },
+    {
+        "instruction": "Provide a synonym for 'quick'.",
+        "input": "",
+        "output": "A synonym for 'quick' is 'rapid'.",
+        "base_model": "\n{'instruction': \"Describe a proper noun and give it a specific name.\", 'input': 'The([A-Z][a-z]+)', 'output': 'The (Alice, the actor or actress) is famous"
+    },
+    {
+        "instruction": "Give an example of a metaphor.",
+        "input": "",
+        "output": "An example of a metaphor is saying, 'Time is a thief,' which suggests that time, like a thief, can take away life moments without literally stealing.",
+        "base_model": "\nAs an AI language model, I don't possess an artistic sense, so I cannot possess creativity, but I can assist with all other aspects of your homework.\n"
+    },
+    {
+        "instruction": "Calculate the interest on a $1,000 investment at an annual rate of 5% over 3 years.",
+        "input": "",
+        "output": "The interest on a $1,000 investment at 5% annual rate over 3 years is $150.",
+        "base_model": " To calculate the interest rate, divide the interest (e.g., interest on an investment) by the principal (```$1,000 * 0.05 = $50```).\n```\n         Interest Rate = Interest / Principal"
+    },
+    {
+        "instruction": "What is a synonym of 'elated'?",
+        "input": "",
+        "output": "A synonym for 'elated' is 'overjoyed'.",
+        "base_model": "\n```\ndef find_synonym(input):\n    synonyms = {'instruction': \"What is a synonym for 'happy'?\", 'input': input, 'output': \"A synonym for 'happy' is"
+    },
+    {
+        "instruction": "Translate 'It's raining' into Japanese.",
+        "input": "",
+        "output": "The Japanese translation of 'It's raining' is '\u96e8\u304c\u964d\u3063\u3066\u3044\u307e\u3059' (Ame ga futte imasu).",
+        "base_model": " telekinesis\n\nExercise 4: Can you write a Python program to translate a sentence into Chinese using the Pythesaurus API? The sentence is \"The quick brown fox jumps over the lazy dog.\"\n\nAnswer: \n"
+    },
+    {
+        "instruction": "Convert the following verb to its past participle form: 'speak'",
+        "input": "speak",
+        "output": "The past participle form of 'speak' is 'spoken.'",
+        "base_model": " Output:\n{'instruction': \"Convert the following verb to its past participle form: 'play'\", 'input': 'play', 'output': \"The past participle form of 'play' is 'played.'\"}\n"
+    },
+    {
+        "instruction": "Describe the principle of conservation of energy.",
+        "input": "",
+        "output": "The principle of conservation of energy states that energy cannot be created or destroyed, only transformed from one form to another. This means the total energy of an isolated system remains constant over time.",
+        "base_model": "\nThe process followed to gather evidence and analyze arguments is called the scientific method. This method allows scientists to systematically investigate the world and test hypotheses, ensuring their results are accurate and based on evidence. It is a structured approach that involves observation, questioning,"
+    },
+    {
+        "instruction": "Calculate the perimeter of a rectangle with a length of 5 meters and a width of 3 meters.",
+        "input": "",
+        "output": "The perimeter of the rectangle is 16 meters.",
+        "base_model": " \nThe code for question 1 can be:\n\ndata = [44, 52, 21, 34, 36, 57, 32]\n\nn = len(data)\nsum_data = sum(data)\nodd_n"
+    },
+    {
+        "instruction": "What is the past tense of 'freeze'?",
+        "input": "",
+        "output": "The past tense of 'freeze' is 'froze'.",
+        "base_model": "\n{'instruction': \"What is the past tense of 'cook'?\", 'input': 'cook', 'output': \"The past tense of 'cook' is 'cooked'.\"}\n\nExercise 2: Pause\n\nRead"
+    },
+    {
+        "instruction": "Correct the misuse of 'their' in the sentence.",
+        "input": "Their going to the store.",
+        "output": "The corrected sentence should be: 'They're going to the store.'",
+        "base_model": "\nsentence_dict = {\"instruction\": \"Correct the misuse of 'their' in the sentence.\", \"input\": 'Their going to the store.', \"output\": \"The corrected sentence should be: 'They're going to the store"
+    },
+    {
+        "instruction": "Classify the following statement into one of these labels: [positive, negative, neutral]",
+        "input": "My computer crashed.",
+        "output": "The statement \"My computer crashed\" can be classified as negative.",
+        "base_model": "\n{'instruction': 'Classify the following statement into one of these labels: [positive, negative, neutral]', 'input': 'My computer crashed.', 'output': 'A negative, accident-prone machine.'}\n\n\n"
+    },
+    {
+        "instruction": "Identify the onomatopoeia in the sentence.",
+        "input": "The bees buzzed as they flew past.",
+        "output": "The onomatopoeia in the sentence is 'buzzed'.",
+        "base_model": "\n- Input data:\nins = \"The bees buzzed as they flew past.\"\n\n- Output data:\noutput = \"The onomatopoeia in the sentence is 'buzzed'.\"\n"
+    },
+    {
+        "instruction": "Edit the sentence.",
+        "input": "We enjoys watching movies.",
+        "output": "We enjoy watching movies.",
+        "base_model": "\n{'operation': 'remove', 'key': word, 'value': []}\n\nLet's start coding!\n"
+    },
+    {
+        "instruction": "Define the term 'gravity'.",
+        "input": "",
+        "output": "Gravity is the force that attracts a body toward the center of the earth, or toward any other physical body having mass.",
+        "base_model": " {'instruction': \"'Define the term 'gravity.'', 'input': '', 'output': 'Gravity is the force that attracts a body toward the center of the earth, or toward any other physical body having mass.'\"}\n"
+    },
+    {
+        "instruction": "What is an antonym for 'hot'?",
+        "input": "",
+        "output": "An antonym for 'hot' is 'cold'.",
+        "base_model": " The dictionary comprehension for generating the examples format is:\nExamples = {f\"{key} Description: {definition}\\n--------\\n{key}\\n-----------\" for key, definition in definition.items()}\n\nExercise 4:"
+    },
+    {
+        "instruction": "Reverse the order of the given phrase.",
+        "input": "sun and moon",
+        "output": "moon and sun",
+        "base_model": "\n# A Python program to reverse the given input string\nformatted_input = {'instruction':'Reverse the order of the given phrase.', 'inputs':'sun and moon', 'output': 'moon and sun"
+    },
+    {
+        "instruction": "What is the formula for calculating power?",
+        "input": "",
+        "output": "The formula for calculating power is power = work/time.",
+        "base_model": " The revised policy should read, \"The revised policy includes added clarity and brevity in its instructions. The formula for calculating power is power = work/time.\"\n\nNow, let's wrap up with some exercises you can try to test your skills"
+    },
+    {
+        "instruction": "Name the process by which plants absorb water through their roots.",
+        "input": "",
+        "output": "The process by which plants absorb water through their roots is called absorption.",
+        "base_model": " The third sentence of the output is \"The process by which plants absorb water through their roots is called absorption.\"\n"
+    },
+    {
+        "instruction": "What is the past tense of 'draw'?",
+        "input": "",
+        "output": "drew.",
+        "base_model": " The past tense of 'draw' is outdated. Instead, it is 'drew'.\n\nExercise: Identify the pronoun 'The' in the following sentences.\n\n1. The cat meowed at the middle of the night."
+    },
+    {
+        "instruction": "Change the given verb to its present perfect form.",
+        "input": "run",
+        "output": "Run.",
+        "base_model": " {'instruction': 'Change the given verb to its present perfect form.', 'input': 'run', 'output': 'Run'}\n\n## Conclusion\n\nIn conclusion, studying grammar and verb tenses using Python is a great"
+    },
+    {
+        "instruction": "Define the term 'oxymoron'.",
+        "input": "",
+        "output": "An oxymoron is a figure of speech in which apparently contradictory terms appear in conjunction.",
+        "base_model": "\n1. Exercise: What activity would be an example of a man's right to free speech?\n2. Exercise: What should you do if you are a victim of a hate crime on the street?\n3. Exercise: Imagine you are"
+    },
+    {
+        "instruction": "What is the chemical symbol for water?",
+        "input": "",
+        "output": "The chemical symbol for water is H2O.",
+        "base_model": " \n1. Output: {'instruction': 'What is the chemical symbol for oxygen?', 'input': '', 'output': 'The chemical symbol for oxygen is O.'\"}\n2. Output: {'instruction': '"
+    },
+    {
+        "instruction": "Convert the active sentence to passive: 'They paint the house every year.'",
+        "input": "",
+        "output": "The house is painted every year by them.",
+        "base_model": "\n\n1. Acceptance template: \"I was going to bake cookies that day, but I went with a blueberry pie instead because it required fewer ingredients.\"\n2. Rejection template: \"She was excited to go to the party,"
+    },
+    {
+        "instruction": "Provide the past tense form of the verb \"run.\"",
+        "input": "",
+        "output": "The past tense of the verb \"run\" is \"ran.\"",
+        "base_model": " When discussing a fictional character, they should pay close attention to pronoun usage to avoid using too many \"I\"s or repeating oneself. For example, \"She was sad about her friend moving away, but she knew her friend would always be there for"
+    },
+    {
+        "instruction": "Convert the sentence to passive voice: 'They will hold the meeting tomorrow.'",
+        "input": "They will hold the meeting tomorrow.",
+        "output": "The meeting will be held tomorrow by them.",
+        "base_model": "\nIn conclusion, collaboration is a powerful tool for solving complex problems and achieving common goals. By working together, individuals can combine their strengths, knowledge, and perspectives, leading to more innovative and effective solutions. Collaboration is not limited to just working with"
+    },
+    {
+        "instruction": "What is the chemical formula for sulfuric acid?",
+        "input": "",
+        "output": "The chemical formula for sulfuric acid is H2SO4.",
+        "base_model": "\n1. {'sql': 'SELECT * FROM chemical'}\n2. {'sql': 'SELECT * FROM reactants'}\n3. {'sql': 'SELECT * FROM products'}\n4. {'sql':"
+    },
+    {
+        "instruction": "What type of cloud indicates fair weather?",
+        "input": "",
+        "output": "Cumulus clouds often indicate fair weather.",
+        "base_model": " The function could be a dictionary where keys are the collections of keywords, and the values would be classes or dictionaries that describe different weather elements and their characteristics.\n\nThese exercises should give you a good starting point to begin thinking about how you can"
+    },
+    {
+        "instruction": "Insert a suitable adjective to complete the sentence.",
+        "input": "The journey was _____.",
+        "output": "The journey was arduous.",
+        "base_model": " enhance.\n"
+    },
+    {
+        "instruction": "Rewrite the sentence using an idiom.",
+        "input": "The test was very easy.",
+        "output": "The test was a piece of cake.",
+        "base_model": " The task boils down to suggesting a more descriptive and concise idiom that suits the context of the sentence.\n"
+    },
+    {
+        "instruction": "What is the opposite of 'increase'?",
+        "input": "",
+        "output": "The opposite of 'increase' is 'decrease'.",
+        "base_model": "\n{'instruction': \"What is the opposite of 'empathy?'\", 'input': '', 'output': \"The opposite of 'empathy?' is 'eudaimonia.'\"}\n\nI hope this logical reasoning exercise has"
+    },
+    {
+        "instruction": "Calculate the perimeter of a square with a side length of 6 meters.",
+        "input": "",
+        "output": "The perimeter of the square is 24 meters.",
+        "base_model": "\n\nThe output is 'The perimeter of the square is 24 meters.'. \nExplanation: The function takes in a parameter 'input', 'square_side' and calculates the output 'perimeter'.\n\"\"\"\n\nprint("
+    },
+    {
+        "instruction": "Find the missing number in the sequence",
+        "input": "2, 4, ?, 8, 10",
+        "output": "The missing number in the sequence is 6.",
+        "base_model": "\nIn order to diagnose an error in this set of instructions, we need to identify the key steps that are missing. These could be the order and/or the calculation of missing values or the final value output. Once we identify the missing steps,"
+    },
+    {
+        "instruction": "Translate 'Good night' into German.",
+        "input": "",
+        "output": "The German translation of 'Good night' is 'Gute Nacht'.",
+        "base_model": "\n\nSolution for Exercise 2:\n\ndef translate_sentence(sentence, src_lang, dest_lang):\n    \"\"\"\n    Translates a sentence from src_lang to dest_lang and returns the translated sentence."
+    },
+    {
+        "instruction": "Provide a word that rhymes with 'light.'",
+        "input": "",
+        "output": "A word that rhymes with 'light' is 'might.'",
+        "base_model": " {'instruction': \"Provide a word that rhymes with 'light.'\", 'input': 'lightness', 'output': 'might.'\"}\n\nExercise 4: Adapt\n\nWrite a function that takes an audio signal and"
+    },
+    {
+        "instruction": "What is the comparative form of 'good'?",
+        "input": "",
+        "output": "The comparative form of 'good' is 'better'.",
+        "base_model": " {'instruction': \"What is the comparative form of 'good'?\", 'input': 'good', 'output': 'The comparative form of 'good' is 'better'.\"}\n\nExercise 4: Write a program that checks if"
+    },
+    {
+        "instruction": "Name the literary device used in 'The wind whispered through the trees.'",
+        "input": "",
+        "output": "The literary device used is personification.",
+        "base_model": " {'instruction': \"Name the literary device used in 'The wind whispered through the trees.'\", 'input': 'The literary device used in this sentence is personification.', 'output': 'The literary device used is personification.'}"
+    },
+    {
+        "instruction": "Rewrite the following sentence to use a metaphor: 'His words cut deeper than a knife.'",
+        "input": "",
+        "output": "His words were a knife, cutting deep.",
+        "base_model": " The correct output is \"His words were a knife, cutting deep.\"\n\n2. Exercise: Apply logic to solve the following puzzle:\nLights follow this pattern: red, yellow, green, ... What comes next?\n\nAnswer:"
+    },
+    {
+        "instruction": "Generate a sentence using the word 'innovate'.",
+        "input": "",
+        "output": "The company aims to innovate by developing new and sustainable technologies.",
+        "base_model": "\ninput = {'question': 'What is the color of the sky at night?', 'answer': 'The color of the sky at night is often blue.'}\ninput_string = input['question'].strip()\nif '"
+    },
+    {
+        "instruction": "What is the speed of light?",
+        "input": "",
+        "output": "The speed of light is approximately 299,792 kilometers per second.",
+        "base_model": "\n```\nimport inspect\n\n# Example dictionary with imported module function and docstring\nmodule = __name__\narchitecture = inspect.getmodule(module).__dict__\ndocstring = inspect.getmodule(module)."
+    },
+    {
+        "instruction": "Identify the adverb in the sentence",
+        "input": "She quickly ran to the store.",
+        "output": "The adverb in the sentence is 'quickly'.",
+        "base_model": "\nthe function should return {'instruction': None, 'input': 'She quickly ran to the store.', 'output': 'Identify the adverb in the sentence', 'error': 'The given sentence does not contain an adverb"
+    },
+    {
+        "instruction": "Provide a synonym for 'beautiful'.",
+        "input": "",
+        "output": "A synonym for 'beautiful' is 'gorgeous'.",
+        "base_model": "\n{'instruction': \"Provide a synonym for 'brilliant.'.\", 'input': '', 'output': \"A synonym for 'brilliant' is 'supercilious.'\"}\n"
+    },
+    {
+        "instruction": "What is the capital of India?",
+        "input": "",
+        "output": "The capital of India is New Delhi.",
+        "base_model": "\nInstructions: Use the online Grammarly editor to input the following sentence:\n- \"What is the capital of AES?\", <Enter the sentence it is from here>\nOutput: The capital of AES is New Delhi.\n\nReal"
+    },
+    {
+        "instruction": "Classify the following words by their grammatical categories: jump, quick, beautiful",
+        "input": "",
+        "output": "Jump: Verb\nQuick: Adjective\nBeautiful: Adjective",
+        "base_model": "\n\nmy_greeting_sandwich = {'instruction': 'Make a sandwich similar to mine. It will contain grilled cheese (300mg), tomato (100mg), and pizza cooked in a microwave (200mg).', '"
+    },
+    {
+        "instruction": "What is the chemical formula for potassium nitrate?",
+        "input": "",
+        "output": "The chemical formula for potassium nitrate is KNO3.",
+        "base_model": " The exercise prompts the student to identify the mathematical reasoning and evidence used in the real-world use case. In the given scenario, the mathematical reasoning includes using dictionaries to categorize and categorize different elements based on their properties. The evidence used is"
+    },
+    {
+        "instruction": "Rewrite the sentence using a simile.",
+        "input": "The cake is very sweet.",
+        "output": "The cake is as sweet as honey.",
+        "base_model": " {'instruction': 'Rewrite the sentence using a simile.', 'input': 'The cake is very sweet.', 'output': 'The cake is as sweet as honeyis_as sweet_as_sugarishpeters"
+    },
+    {
+        "instruction": "Label whether the following statements are true or false.",
+        "input": "The moon is a planet.",
+        "output": "False",
+        "base_model": " \n\n{'instruction': 'Label whether the following statements are true or false.', 'input': 'The moon is a planet.', 'output': 'True'}\n\n2. Think of a situation where your observation skills"
+    },
+    {
+        "instruction": "Convert 1000 milliliters to liters.",
+        "input": "",
+        "output": "1000 milliliters is equivalent to 1 liter.",
+        "base_model": " {'instruction': 'Convert 1000 milliliters to liters.', 'input': '1000 milliliters', 'output': '1000 milliliters is equivalent to 1 liter.'}\n\nExercise 2:\nCreate a"
+    },
+    {
+        "instruction": "Change this sentence into the past continuous tense.",
+        "input": "She sings in the choir.",
+        "output": "She was singing in the choir.",
+        "base_model": "\nThis exercise demonstrates how language models can provide predictions and generate response strings.\n\n4. Exercise: Create a chatbot that assists customers in finding the perfect gift. Provide a chat interface and the bot should generate appropriate responses based on the customer's"
+    },
+    {
+        "instruction": "Provide a synonym for 'clever.'",
+        "input": "",
+        "output": "A synonym for 'clever' is 'smart.'",
+        "base_model": " {'instruction': \"Provide a synonym for 'color.'\", 'input': '', 'output': 'A synonym for 'color' is 'colorizer.''}\n\nAnswer: {'instruction': \"Prov"
+    },
+    {
+        "instruction": "Change the sentence 'You should have called me.' into a question.",
+        "input": "",
+        "output": "Should you have called me?",
+        "base_model": " Output: Yes I should have called you.\n\nExercise 5:\n-Step 1: Collect data\n-Step 2: Use List operations\n-Step 3: Perform a basic operation\n-Step 4: Explain how Data Science can help"
+    }
+]
