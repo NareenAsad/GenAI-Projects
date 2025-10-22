@@ -20,9 +20,25 @@ gpt2/
 out/
 data/
 
+# Virtual environments
+env/
+venv/
+env1/
+.LLMS/
+.LLMS_env/
+.LLM_env/
+
 # VS Code settings (optional)
 .vscode/
 
 # System files (optional, safe to include)
 .DS_Store
 Thumbs.db
+
+# === Custom JSON rules ===
+# Ignore these specific JSON files
+test.json
+train.json
+
+# But do NOT ignore this one
+!instruction-data.json
