@@ -9,7 +9,7 @@ This project demonstrates how to fine-tune a lightweight large language model (*
 The goal is to efficiently adapt a general instruction-tuned model to perform **clinical reasoning**, **medical Q&A**, and **diagnostic decision-support tasks** using limited GPU memory (such as in Google Colab).
 
 ## Watch the full Colab notebook here:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]((https://colab.research.google.com/drive/1ZaT_oqwQ0Yaa1gkJg0fArGJV3lJxCwJ_?usp=sharing))
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ZaT_oqwQ0Yaa1gkJg0fArGJV3lJxCwJ_?usp=sharing)
 ---
 
 ## ⚙️ Features
