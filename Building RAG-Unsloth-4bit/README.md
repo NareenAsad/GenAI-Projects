@@ -138,8 +138,8 @@ Unsloth’s **dynamic 4-bit quantization** preserves precision for key layers wh
 ## 🧑‍💻 Author
 
 **Nareen Asad**
-💼 Student Project — RAG with Quantized LLMs
-📅 November 2025
+* Student Project — RAG with Quantized LLMs
+* November 2025
 
 ---
 
@@ -157,5 +157,3 @@ Unsloth’s **dynamic 4-bit quantization** preserves precision for key layers wh
 * Experiment with larger quantized models (7B, 13B)
 * Save and reload FAISS index between sessions
 * Add evaluation metrics (BLEU, ROUGE, context accuracy)
-
----
