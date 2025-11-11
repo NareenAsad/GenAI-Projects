@@ -7,8 +7,8 @@
 This repository contains multiple hands-on projects exploring generative AI, reasoning pipelines, RAG systems, LLM finetuning, and AI application interfaces. Each project is in its own folder with code, notebooks, and documentation.
 
 ### Projects Included:
-1. **Build A Speech-to-Reasoning Pipeline With Whisper & 4-bit LLM**  
-   - Convert audio input → transcribe with Whisper → generate reasoning with a 4-bit quantized LLM.  
+1. **Build A Speech-to-Reasoning Pipeline With Whisper & Quantized LLM**  
+   - Convert audio input → transcribe with Whisper → generate reasoning with a quantized LLM (e.g., 4-bit/NF4).  
    - Key Technologies: `Whisper`, `bitsandbytes`, `transformers`, `PyTorch`, Hugging Face models.  
 
 2. **Build A Streamlit Interface For A Locally Installed LLM**  
@@ -34,14 +34,14 @@ This repository contains multiple hands-on projects exploring generative AI, rea
 
 GenAI-Projects/
 │
-├── Build A Speech-to-Reasoning Pipeline With Whisper & 4-bit LLM/
+├── Build A Speech-to-Reasoning Pipeline With Whisper & Quantized LLM/
 │   ├── README.md
-│   └── notebook.ipynb
+│   └── speech-to-reasoning-whisper.ipynb
 │
 ├── Build A Streamlit Interface For A Locally Installed LLM/
 │   └── main.py / app.py
 │
-├── Building LLMs from the Scratch/
+├── Building LLMs from Scratch/
 │   └── notebooks, scripts, datasets/
 │
 ├── Building RAG-Unsloth-4bit/
@@ -52,7 +52,7 @@ GenAI-Projects/
 │
 └── README.md (this file)
 
-````
+```
 
 ---
 
@@ -61,12 +61,12 @@ GenAI-Projects/
    ```bash
    git clone https://github.com/NareenAsad/GenAI-Projects.git
    cd GenAI-Projects
-````
+   ```
 
 2. Enter the project folder you want to run:
 
    ```bash
-   cd "Build A Speech-to-Reasoning Pipeline With Whisper & 4-bit LLM"
+   cd "Build A Speech-to-Reasoning Pipeline With Whisper & Quantized LLM"
    ```
 3. Follow the project-specific README for setup instructions, required libraries, and example runs.
 4. Ensure you have GPU access for LLM projects and install dependencies like:
@@ -74,6 +74,25 @@ GenAI-Projects/
    ```bash
    pip install torch transformers bitsandbytes whisper streamlit faiss-cpu
    ```
+
+---
+
+## 🧰 Prerequisites (Windows-friendly)
+- **Python**: 3.10 or 3.11 recommended  
+- **GPU (optional but recommended)**: NVIDIA GPU with recent CUDA drivers  
+- **Virtual environment**: `conda` or `venv`
+
+Quick setup:
+```bash
+conda create -n genai python=3.11 -y
+conda activate genai
+# CPU-only torch (works everywhere)
+pip install --index-url https://download.pytorch.org/whl/cpu torch torchvision torchaudio
+# Or for CUDA 12.1 (if you have NVIDIA GPU + matching drivers)
+# pip install --index-url https://download.pytorch.org/whl/cu121 torch torchvision torchaudio
+```
+
+Then install project deps inside each project as instructed in its README.
 
 ---
 
